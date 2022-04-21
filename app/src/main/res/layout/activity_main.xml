@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="@integer/column_count"
+    android:rowCount="@integer/row_count"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/select_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:columnCount="@integer/column_count"
+        android:rowCount="@integer/row_count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+
+        <ImageButton
+            android:id="@+id/GoToStaffordGambit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="false"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/stafford_gambit"
+            android:tag="Stafford Gambit"
+            android:tint="#00FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/GoToQGD"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/qgd"
+            android:tag="Queen's Gambit Declined"
+            android:tint="#00FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/GoTORuyLopez"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ruy_lopez"
+            android:tag="Ruy Lopez"
+            android:tint="#00FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/GoToItalian"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/italian"
+            android:tag="Italian"
+            android:tint="#00FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/GoToViennaGambit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vienna_gambit"
+            android:tag="Vienna Gambit"
+            android:tint="#00FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/GoToAdvancedCaroKann"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="startCourse"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/advanced_caro_kann"
+            android:tag="Advanced Caro-Kann"
+            android:tint="#00FFFFFF" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

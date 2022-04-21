@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:columnCount="8"
+        android:rowCount="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/square1"
+            android:layout_width="match_parent"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square2"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square3"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square4"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square5"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square6"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/Square7"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/Square8"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square9"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square10"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square11"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square12"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square13"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square14"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square15"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square16"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square17"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square18"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square19"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square20"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square21"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square22"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square23"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square24"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square25"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square26"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square27"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square28"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square29"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square30"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square31"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square32"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square33"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square34"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square35"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square36"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square37"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square38"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square39"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square40"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square41"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square42"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square43"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square44"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square45"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square46"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square47"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square48"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square49"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square50"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square51"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square52"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square53"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square54"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square55"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square56"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square57"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square58"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square59"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square60"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square61"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square62"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+
+        <ImageButton
+            android:id="@+id/square63"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/black_square" />
+
+        <ImageButton
+            android:id="@+id/square64"
+            android:layout_width="@string/square_size"
+            android:layout_height="@string/square_size"
+            android:padding="0dp"
+            app:srcCompat="@drawable/white_square" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

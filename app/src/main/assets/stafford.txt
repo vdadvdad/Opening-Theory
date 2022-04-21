@@ -1,0 +1,10 @@
+text: Stafford Gambit can be achieved by moves 1.e4 e5, 2.Nf3 Nf6 3.Nxe5
+play-move: e2e4, e7e5, g1f3, g8f6, f3e5
+text: Next move is Nc6
+.1
+b8c6:
+play-move: e5c6
+text: White gambited a pawn, which is considered bad in case white will not fall into traps
+text: Next move is dxc6
+.1
+d7c6: This frees white-square bishop

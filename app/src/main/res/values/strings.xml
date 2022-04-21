@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Opening Theory</string>
+    <string name="button_size">100dp</string>
+    <string name="margin_size">10dp</string>
+    <integer name="row_count">3</integer>
+    <integer name="column_count">3</integer>
+    <string name="square_size">50dp</string>
+</resources>
